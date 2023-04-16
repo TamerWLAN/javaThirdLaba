@@ -1,13 +1,13 @@
 package com.art;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import java.sql.SQLOutput;
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Timer tester = new Timer(100000);
+
+        System.out.println(tester.testAll());
     }
 }
